@@ -1,0 +1,28 @@
+.project-card 
+{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2.5rem;
+    text-align: center;
+    background: rgba(22, 17, 47, 0.398);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-img img
+{
+    width: 6rem;
+    height: auto;
+}
+.project-card:hover 
+{
+    background: linear-gradient(100deg, #aa94fe 0%, #7c5fe6 100%);
+}
+
+.project-card span 
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+}

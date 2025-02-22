@@ -1,0 +1,85 @@
+/* General Styling */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .h5
+  {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  
+  /* Left Side - Image */
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    width: 20rem;
+    border-radius: 10px;
+  }
+  
+  /* Right Side - About Information */
+  .about-info {
+    flex: 1;
+    padding: 0 40px;
+    gap: 0.5rem;
+  }
+  
+  .about-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  
+  @media (max-width: 1024px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-info {
+      padding: 20px 0;
+    }
+  
+    .about-image img {
+      max-width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-info h1 {
+      font-size: 2rem;
+    }
+  
+    .about-info h2 {
+      font-size: 1.25rem;
+    }
+  
+    .about-info p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-info h1 {
+      font-size: 1.75rem;
+    }
+  
+    .about-info h2 {
+      font-size: 1.1rem;
+    }
+  
+    .about-info p {
+      font-size: 0.85rem;
+    }
+  }

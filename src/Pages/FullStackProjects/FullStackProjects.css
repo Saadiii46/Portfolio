@@ -1,0 +1,28 @@
+.fullstack-project-container 
+{
+    margin: 4rem 0;
+    position: relative;
+}
+
+.heading
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.fullstack-project-content 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.fullstack-projects
+{
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,39 @@
+.fullstack-project-card 
+{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2.5rem;
+    text-align: start;
+    background: rgba(22, 17, 47, 0.398);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    transition: all 0.3s ease;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    gap: 0.7rem; /* Add spacing between items */
+}
+
+.fullstack-project-video img
+{
+    width: 28rem; /* Make the image fill the container width */
+    height: auto; /* Make the image fill the container height */
+    object-fit: cover; /* Fill the container without distorting the image */
+}
+
+.fullstack-project-card span 
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 769px)
+{
+    .fullstack-project-video img 
+    {
+        width: 24rem; /* Make the image fill the container width */
+        height: auto; /* Make the image fill the container height */
+        object-fit: cover; /* Fill the container without distorting the image */
+    }
+}

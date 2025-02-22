@@ -1,0 +1,78 @@
+.frontend-projects-card {
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2.5rem;
+    text-align: center;
+    background: rgba(22, 17, 47, 0.398);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    transition: all 0.3s ease;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    gap: 0.5rem; /* Add spacing between items */
+}
+
+.frontend-project-img img {
+    width: 100%; /* Make the image fill the container width */
+    height: 100%; /* Make the image fill the container height */
+    object-fit: cover; /* Fill the container without distorting the image */
+}
+
+.frontend-projects-card span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.title 
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media (max-width: 1193px)
+{
+    .title 
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.frontend-projects-card span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+}
+
+@media (max-width: 1142px)
+{
+    .frontend-projects-card span {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 1081px)
+{
+    .frontend-projects-card span {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 908px)
+{
+    .frontend-projects-card span {
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 769px) 
+{
+    .frontend-projects-card span {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
