@@ -6,8 +6,8 @@ import ProjectCard from './ProjectCard/ProjectCard'
 function Projects() {
   return (
     <section id='projects' className='project-continer' >
-        <h5 className='heading' >Projects</h5>
-        <div className="project-content">
+        <h5 className='heading autoShow' >Projects</h5>
+        <div className="project-content autoShow">
             <div className="projects">
                 {PROJECTS.map((item) => (
 

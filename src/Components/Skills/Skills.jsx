@@ -14,8 +14,8 @@ function Skills() {
 
   return (
     <section id='skills' className='skills-container' >
-        <h5>Technical Proficiency</h5>
-        <div className="skills-content">
+        <h5 className='autoShow' >Technical Proficiency</h5>
+        <div className="skills-content autoShow">
             <div className="skills">
               {SKILLS.map((item) => (
                 <SkillsCard 

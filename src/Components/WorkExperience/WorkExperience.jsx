@@ -35,9 +35,9 @@ function WorkExperience() {
 
   return (
     <section id='work' className='experience-container' >
-      <h5>Work Experience</h5>
+      <h5 className='autoShow' >Work Experience</h5>
 
-      <div className="experience-content">
+      <div className="experience-content autoShow">
 
         <div className="arrow-right" onClick={slideRight} >
           <span class="material-symbols-outlined" >chevron_right</span>
