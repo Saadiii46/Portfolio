@@ -4,16 +4,16 @@ import './About.css'
 function About() {
   return <>
   <div id='about' >
-    <h5 className='h5 autoShow' >About</h5>
+    <h5 className='h5' >About</h5>
   </div>
-    <section className="about-section autoShow">
+    <section className="about-section">
       {/* Left Side - Image */}
       <div className="about-image">
         <img src="./assets/images/hero-image.jpg" alt="Saad's Image" />
       </div>
 
       {/* Right Side - About Information */}
-      <div className="about-info autoShow">
+      <div className="about-info">
         <h1>Muhammad Saad Khalid</h1>
         <h2>Full Stack Developer</h2>
         <p>
